@@ -86,7 +86,9 @@ Responder Y
 
 </pre>
 
-Esto genera el nuevo proyecto basado en adminfaces con todos los componentes. Sugerencia es un proyecto de ejemplo
-el creara todos los paquetes y los incluira en los nuevos paquetes que especifico 
-borrelos para evitar conflictos.
+
+<pre>
+Nota:
+Recuerde editar el archivo pom.xml y definir el <final-name> de su proyecto
+</pre>
 
