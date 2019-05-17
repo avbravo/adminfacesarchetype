@@ -122,7 +122,8 @@
     </dependencies>
 
     <build>
-        <finalName>adminfacesarchetype</finalName>
+        <!-- Agregue aqui el nombre para el context root -->
+        <!--<finalName>adminfacesarchetype</finalName>-->
         <!-- adminfaces -->
         <resources>
             <resource>
