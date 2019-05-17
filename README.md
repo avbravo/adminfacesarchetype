@@ -11,6 +11,7 @@ Pasos para usar:
 2. Ejecutar
 3.
 
+<pre>
 Crear un proyecto web basado en adminfaces
 
  mvn archetype:generate -Dfilter=com.avbravo:adminfacesarchetype-archetype -DarchetypeVersion=0.2
@@ -33,3 +34,4 @@ Responder Y a la pregunta de confirmacion
 Esto genera el nuevo proyecto basado en adminfaces con todos los componentes. Sugerencia es un proyecto de ejemplo
 el creara todos los paquetes y los incluira en los nuevos paquetes que especifico 
 borrelos para evitar conflictos.
+</pre>
