@@ -11,27 +11,36 @@ Pasos para usar:
 2. Ejecutar
 3.
 
-<pre>
+
 Crear un proyecto web basado en adminfaces
+
+Ejecutar
 
  mvn archetype:generate -Dfilter=com.avbravo:adminfacesarchetype-archetype -DarchetypeVersion=0.2
 
 Responder a las preguntas
+<pre>
 1: local -> com.avbravo:myshowcase-archetype (myshowcase-archetype)
 Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): : 1
--->Define value for property 'groupId': 
-com.avbravo                                        
--->Define value for property 'artifactId': 
+Define value for property 'groupId': 
+com.avbravo               
+                         
+Define value for property 'artifactId': 
 adminfacesarchetype
--->Define value for property 'version' 1.0-SNAPSHOT: 
+
+Define value for property 'version' 1.0-SNAPSHOT: 
  0.1
--->Define value for property 'package' com.avbravo: 
+
+Define value for property 'package' com.avbravo: 
  com.avbravo
+
 Confirm properties configuration:
 
-Responder Y a la pregunta de confirmacion
+Responder Y 
+
+
+</pre>
 
 Esto genera el nuevo proyecto basado en adminfaces con todos los componentes. Sugerencia es un proyecto de ejemplo
 el creara todos los paquetes y los incluira en los nuevos paquetes que especifico 
 borrelos para evitar conflictos.
-</pre>
